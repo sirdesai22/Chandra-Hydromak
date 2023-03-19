@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <title>Chandra Hydromak</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar flex bg-blue-500 justify-between h-16 items-center fixed w-full">
+        <h1 class="text-3xl font-extrabold ml-4 -mt-1">CH</h1>
+        <nav>
+            <ul class="flex justify-end p-3 text-sm lg:text-lg float-right font-semibold">
+                <a class="active:text-white mr-5 lg:mr-24" href="#home">Home</a>
+                <a class="active:text-white mr-5 lg:mr-24" href="#about">About</a>
+                <a class="active:text-white mr-5 lg:mr-24" href="#products">Products</a>
+                <a class="focus:text-white mr-1 lg:mr-10" href="#contact">Contact</a>
+                <!-- <li class="cursor-pointer mr-5 lg:mr-24">Home</li>
+                <li class="cursor-pointer pr-5 lg:pr-24">About</li>
+                <li class="cursor-pointer pr-5 lg:pr-24">Products</li>
+                <li class="cursor-pointer pr-1 lg:pr-10">Contact</li> -->
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Name and Tagline -->
+    <div id="home"></div>
+    <div id="homepage" class="bg-red-400 text-center p-2 h-full text-white">
+        <h1 class="text-6xl font-bold items-center mt-64 uppercase lg:text-8xl">Chandra Hydromak</h1>
+        <p class="text-xl mt-8 font-semibold lg:text-2xl">Providing innovations, solutions and services for all hydraulic systems.</p>
+        <a class="active:text-white" href="#about"><button class="p-3 bg-orange-600 rounded-full w-40 text-lg mt-24 font-semibold">About Us</button></a>
+    </div>
+
+    <!-- About us -->
+    <div id="about"></div>
+    <div class="w-5/6 m-auto">
+        <h2 class="text-4xl lg:text-5xl lg:mt-20 font-semibold text-center mt-5 font-serif">About Us</h2>
+        <p class="text-center mt-5 lg:text-3xl">Chandra Hydromak is an innovations, solutions and service provider for 
+            Hydraulic systems with its design, manufacturing and service providing capability with an 
+            experience of more than 22 years in this field of service. <br><br>
+            We have supplied for more than 50 systems to the reputed Sugar industries in Karnataka 
+            and Maharashtra States. We also take turnkey projects for complete hydraulic systems for 
+            Sugar Industries and provide service and maintenance there after.</p>
+    </div>
+
+    <!-- Products list -->
+    <div id="products"></div>
+    <div class="text-center m-auto mx-2 mt-20">
+        <h2 class="text-4xl lg:text-5xl lg:mt-20 font-serif font-semibold mt-5">Products</h2>
+    <a href="products.html">   
+    <div class="lg:flex lg:mt-10">
+        <!-- 1 -->
+        <div class="flex mt-5 lg:w-1/2">
+            <!-- Product A  -->
+            <div class="bg-sky-200 w-1/2 mx-2 rounded-lg">
+                <div class="flex flex-col">
+                    <img src="Assets/hydrajack.png" class="m-2 rounded-xl h-3/4">
+                    <p class="text-lg font-semibold p-2">Hydraulic Jacks</p>
+                </div>
+            </div>
+
+            <!-- Product B  -->
+            <div class="bg-sky-200 w-1/2 mx-2 rounded-lg">
+                <div class="flex flex-col">
+                    <img src="Assets/hydrapowerpack.jpg" class="m-2 rounded-xl h-3/4">
+                    <p class="text-lg font-semibold p-2">Hydraulic Power Pack</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="flex mt-5 lg:w-1/2">
+            <!-- Product A  -->
+            <div class="bg-sky-200 w-1/2 mx-2 rounded-lg">
+                <div class="flex flex-col">
+                    <img src="Assets/hydrapress.png" class="m-2 rounded-xl h-3/4">
+                    <p class="text-lg font-semibold p-2">Hydraulic Press</p>
+                </div>
+            </div>
+
+            <!-- Product B  -->
+            <div class="bg-sky-200 w-1/2 mx-2 rounded-lg">
+                <div class="flex flex-col">
+                    <img src="Assets/hydraStackMach.png" class="m-2 rounded-xl h-3/4">
+                    <p class="text-lg font-semibold p-2">Hydraulic Stacker</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </a>
+    </div>
+
+    <!-- Show more button  -->
+    <div class="text-center">
+        <button class="p-3 text-white font-semibold bg-orange-600 rounded-full w-32 text-lg mt-5"><a href="products.html">Show more</a></button>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact"></div>
+    <div class="bg-blue-500 mt-16 flex flex-col items-center">
+        <div class="mt-5 lg:w-1/2 text-center">
+            <h2 class="text-5xl font-extrabold uppercase">Chandra Hydromak</h2>
+            <p class="text-xl mt-2">Providing innovations, solutions and services for all hydraulic systems.</p>
+            <div class="flex items-center justify-between mx-5 font-semibold mt-3">
+                <a href = "mailto:yourgmail@gmail.com">yourgmail@gmail.com</a>
+                <a href="tel:123-456-7890">123-456-7890</a>
+            </div>
+        </div>
+
+        <div class="flex-col w-full lg:w-1/2 text-center mt-10  ">
+            <form action="">
+                <textarea class="rounded-lg p-2 w-4/5" name="" id="" cols="36" rows="5" placeholder="Write your query" required></textarea>
+                <input class="p-2 my-1 rounded-lg w-4/5" type="text" placeholder="Name" required><br>
+                <input class="p-2 my-1 rounded-lg w-4/5 border border-none focus:outline-none focus:ring-2 focus:ring-green-500 invalid:text-red-600 focus:invalid:ring-red-500" type="email" placeholder="Email" required><br>
+                <button class="p-3 bg-orange-600 font-semibold text-white rounded-full mt-4" type="submit">Send Query</button>
+            </form>
+        </div>
+        <div class="text-center mt-5 text-sm font-semibold opacity-70">
+            <footer>©Copyright. All rights reserved.</footer>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
