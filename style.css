@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#homepage{
+    background-image: url('../Assets/gears.png');
+    height: 100vh;
+    background-size: cover;
+}
